@@ -1,0 +1,42 @@
+.box {
+    display: block;
+    width: 260px;
+    border: 1px solid #888; 
+    background-color: #e3f2f9; 
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    flex: 0 0 260px;
+    border-radius: 8px; 
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    outline: 2px solid #555; 
+    outline-offset: 3px;
+   
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px; 
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #2c3e50; 
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+    color: white; 
+}
